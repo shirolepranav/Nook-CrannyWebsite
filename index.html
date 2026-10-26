@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nook &amp; Cranny — Know what you own. Exactly where it is.</title>
+<meta name="description" content="The warm, private home inventory for iPhone and iPad. Photograph a shelf, tag what’s on it, and ask “Where’s the camping tent?” to see the exact spot. No account, no tracking. Pay once.">
+<meta name="theme-color" content="#F7F3EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1714" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nook & Cranny — Home Inventory">
+<meta property="og:description" content="Know what you own. Exactly where it is. Private, on your device. Pay once.">
+<meta property="og:image" content="/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/Fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script src="/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#top" aria-label="Nook & Cranny, back to top">
+      <img src="/assets/favicon.png" alt="" width="32" height="32">
+      <span>Nook &amp; Cranny</span>
+    </a>
+    <div class="nav-links" id="nav-links">
+      <a href="#scan">Features</a>
+      <a href="#private">Privacy</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="store store--small" data-store href="#pricing">Coming soon</a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow">Home inventory for iPhone &amp; iPad</p>
+      <h1 class="display">Know what you own.<br><em>Exactly</em> where it is.</h1>
+      <p class="lede">Photograph a shelf and tag what’s on it. Ask “Where are my passports?” and see the drawer they’re in. Warm, private, and all on your device.</p>
+      <div class="cta">
+        <a class="store" data-store href="#pricing">
+          <span class="store-small">Coming soon on the</span>
+          <span class="store-big">App Store</span>
+        </a>
+        <p class="price-note">Free to start · Pro is <strong>$14.99 once</strong> · No subscription</p>
+      </div>
+    </div>
+    <div class="hero-art" data-tilt>
+      <div class="device ipad hero-ipad" aria-hidden="true">
+        <picture>
+          <source srcset="/assets/screens/i-home-dark.jpg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/screens/i-home.jpg" alt="" width="1100" height="1467">
+        </picture>
+      </div>
+      <div class="device phone hero-phone">
+        <picture>
+          <source srcset="/assets/screens/p-home-dark.jpg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/screens/p-home.jpg" alt="The Home screen: a $4,036 home total, rooms for Kitchen, Living room, Bedroom and Garage, and a cordless drill warranty ending in 20 days." width="900" height="1955">
+        </picture>
+      </div>
+      <div class="float-chip chip-a" aria-hidden="true"><span class="dot dot-butter"></span>Kitchen → Top drawer</div>
+      <div class="float-chip chip-b" aria-hidden="true"><span class="dot dot-sage"></span>Warranty · 162 days left</div>
+    </div>
+  </section>
+
+  <!-- Spots marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Kitchen → Top drawer</span><span>Garage → Metal shelf → Box 14</span><span>Bedroom → Wardrobe</span><span>Living room → Blue bin</span><span>Kitchen → Pantry</span><span>Garage → Pegboard</span><span>Hall closet → Top shelf</span><span>Office → Desk drawer</span>
+      <span>Kitchen → Top drawer</span><span>Garage → Metal shelf → Box 14</span><span>Bedroom → Wardrobe</span><span>Living room → Blue bin</span><span>Kitchen → Pantry</span><span>Garage → Pegboard</span><span>Hall closet → Top shelf</span><span>Office → Desk drawer</span>
+    </div>
+  </div>
+
+  <!-- Scan -->
+  <section class="feature" id="scan">
+    <div class="feature-copy">
+      <p class="eyebrow eyebrow-clay reveal">Scan a room</p>
+      <h2 class="title reveal">Snap a shelf.<br><em>Tag</em> what’s on it.</h2>
+      <p class="body reveal">Take one photo, tap each thing to name it, and save the whole shelf at once. On devices with Apple Intelligence it suggests names for you. Every step also works without it.</p>
+      <ul class="ticks reveal">
+        <li>Add one item in two taps: a photo and a name</li>
+        <li>Scan barcodes, serial and model numbers</li>
+        <li>Attach receipts as photos or PDFs</li>
+      </ul>
+    </div>
+    <figure class="shelf" data-play>
+      <img src="/assets/shelf.jpg" alt="A wooden shelf of mugs, a kitchen scale, an oak cask and wine bottles, with three items tagged." width="1049" height="1400" loading="lazy">
+      <div class="tag tag-scale"><span class="tag-chip">Kitchen scale</span></div>
+      <div class="tag tag-cask"><span class="tag-chip">Oak cask</span></div>
+      <div class="tag tag-wine"><span class="tag-chip">Wine bottles</span></div>
+      <figcaption class="toast"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m7.5 12.5 3 3 6-6.5"/></svg>3 items saved to Living room.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Find -->
+  <section class="feature feature--flip" id="find">
+    <div class="feature-copy">
+      <p class="eyebrow eyebrow-sky reveal">Find anything</p>
+      <h2 class="title reveal">Ask <em>where</em>.<br>See the exact spot.</h2>
+      <p class="body reveal">Search as you type, even if you misspell it. Ask a question and get the room, the spot and the box, with when you last put it there. It answers only from what you’ve saved, and never makes anything up.</p>
+    </div>
+    <div class="ask" data-play>
+      <div class="ask-field" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+        <span class="ask-text">Where’s the camping tent?</span><span class="caret"></span>
+      </div>
+      <article class="answer">
+        <p class="answer-title">Box 14, packed Jun 26.</p>
+        <p class="crumbs"><strong>Garage</strong> → Metal shelf → Box 14 · Camping tent</p>
+        <div class="answer-photo" role="img" aria-label="Photo of a blue camping tent"></div>
+        <span class="pill">Open Box 14</span>
+      </article>
+      <p class="sr-only">Example: asking “Where’s the camping tent?” answers “Box 14, packed Jun 26. Garage, Metal shelf, Box 14.”</p>
+    </div>
+  </section>
+
+  <!-- Feature grid -->
+  <section class="grid-section" id="features">
+    <h2 class="title center reveal">Everything in its place.<br><em>And</em> everything about it.</h2>
+    <div class="cards">
+      <article class="card card-lavender reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M8 7l4-4 4 4M8 17l4 4 4-4M7 8l-4 4 4 4M17 8l4 4-4 4"/></svg>
+        <h3>Move in two taps</h3>
+        <p>Pick the new spot and it’s updated, with Undo. Every item remembers where it has been. Nothing moves without your tap.</p>
+      </article>
+      <article class="card card-mint reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8.5 7 10 4-1.5 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>Warranty reminders</h3>
+        <p>Set the length or attach the receipt. You get a nudge 30 days and 7 days before it ends, even offline.</p>
+      </article>
+      <article class="card card-rose reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><path d="M16 11h5m-2-2 2 2-2 2"/></svg>
+        <h3>Know who has it</h3>
+        <p>Mark the drill as lent, note who borrowed it and when it’s due, and see everything that’s out in one filter.</p>
+      </article>
+      <article class="card card-stone reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg>
+        <h3>Insurance-ready PDF</h3>
+        <p>A report by room with photos, values, serial numbers, receipts and totals, plus CSV export and full backups.</p>
+      </article>
+      <article class="card card-butter reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4z"/><path d="M14 14h2v2h-2zM18 18h2v2h-2zM14 18h2M18 14h2"/></svg>
+        <h3>Box labels</h3>
+        <p>Print a QR label for any box. Point the Camera at it to see what’s inside, which is perfect for moving day.</p>
+      </article>
+      <article class="card card-sky reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><path d="M16.5 13.5v6M13.5 16.5h6"/></svg>
+        <h3>Siri, widgets &amp; Control Center</h3>
+        <p>“Find my keys in Nook and Cranny.” Warranties on your Home Screen. Scan a room from Control Center.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- iPad strip -->
+  <section class="ipad-section" aria-labelledby="ipad-title">
+    <div class="ipad-head">
+      <h2 class="title reveal" id="ipad-title">Roomy on <em>iPad</em>.</h2>
+      <p class="body reveal">A sidebar, keyboard shortcuts and pointer support. Every room laid out side by side, at any window size.</p>
+    </div>
+    <div class="strip" tabindex="0" aria-label="iPad screens, scroll sideways">
+      <figure class="device ipad"><img src="/assets/screens/i-room.jpg" alt="Kitchen on iPad: items grouped by Counter, Pantry and Top drawer." width="1100" height="1467" loading="lazy"></figure>
+      <figure class="device ipad"><img src="/assets/screens/i-item.jpg" alt="Espresso machine on iPad: price, active warranty, receipt and location history." width="1100" height="1467" loading="lazy"></figure>
+      <figure class="device ipad"><img src="/assets/screens/i-warranties.jpg" alt="Warranties on iPad: ending soon, active and expired." width="1100" height="1467" loading="lazy"></figure>
+      <figure class="device ipad"><img src="/assets/screens/i-find-dark.jpg" alt="Find on iPad in dark mode: the espresso machine is in Kitchen, Counter." width="1100" height="1467" loading="lazy"></figure>
+      <figure class="device ipad"><img src="/assets/screens/i-report.jpg" alt="Insurance report preview on iPad: 3 pages, 14 items, $4,036." width="1100" height="1467" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- Private -->
+  <section class="private" id="private">
+    <div class="private-inner">
+      <div class="lock reveal" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><rect x="14" y="28" width="36" height="28" rx="8"/><path d="M22 28v-7a10 10 0 0 1 20 0v7"/><circle cx="32" cy="42" r="3.5"/></svg>
+      </div>
+      <p class="eyebrow eyebrow-accent reveal">Private by design</p>
+      <h2 class="title reveal">Your things stay <em>yours</em>.</h2>
+      <ul class="private-list">
+        <li class="reveal"><strong>No account.</strong> Open it and start. There’s nothing to sign up for.</li>
+        <li class="reveal"><strong>No tracking, no ads.</strong> Data Not Collected, on the App Store and in fact.</li>
+        <li class="reveal"><strong>On your device.</strong> Photos and text are read on your iPhone. Apple Intelligence helps where it can, and nothing needs it.</li>
+        <li class="reveal"><strong>Face ID.</strong> Lock the app, hide values with a tap, and mark items Private to keep them out of Spotlight, Siri and widgets.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <h2 class="title center reveal">Free to start.<br><em>Pay once</em> for everything.</h2>
+    <div class="plans">
+      <article class="plan reveal">
+        <h3>Free</h3>
+        <p class="amount">$0</p>
+        <ul>
+          <li>Unlimited rooms and spots</li>
+          <li>Search and Ask</li>
+          <li>Up to 25 items</li>
+          <li>3 warranty reminders</li>
+          <li>Backups</li>
+        </ul>
+      </article>
+      <article class="plan plan--pro reveal">
+        <p class="badge">One-time purchase</p>
+        <h3>Nook &amp; Cranny Pro</h3>
+        <p class="amount">$14.99 <span>once</span></p>
+        <ul>
+          <li>Unlimited items and reminders</li>
+          <li>Insurance PDF and CSV export</li>
+          <li>iCloud Sync across iPhone and iPad</li>
+          <li>Family Sharing</li>
+          <li>No subscription</li>
+        </ul>
+        <a class="store" data-store href="#pricing">
+          <span class="store-small">Coming soon on the</span>
+          <span class="store-big">App Store</span>
+        </a>
+      </article>
+    </div>
+    <p class="fine reveal">Anything you’ve already added is never locked away.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <h2 class="title center reveal">Questions</h2>
+    <div class="faq-list">
+      <details class="reveal"><summary>Does it need Apple Intelligence?</summary><p>No. Every feature works without it. Where your device supports it, it just saves you some typing by suggesting names.</p></details>
+      <details class="reveal"><summary>Is there an account? Does it need internet?</summary><p>No account and no internet are needed. The only things that use the internet are buying Pro and iCloud Sync, both through Apple.</p></details>
+      <details class="reveal"><summary>What’s free and what’s Pro?</summary><p>Free includes unlimited rooms, search, backups, up to 25 items and 3 warranty reminders. Pro is a single $14.99 purchase that unlocks unlimited items and reminders, the insurance PDF and CSV export, and iCloud Sync. It works with Family Sharing.</p></details>
+      <details class="reveal"><summary>How do I move my home to a new iPhone?</summary><p>Set up the new iPhone from your old one or a backup, turn on iCloud Sync with Pro, or save a backup file to Files. Backups are free.</p></details>
+      <details class="reveal"><summary>Can I keep some items private?</summary><p>Yes. Private items need Face ID or Touch ID to open and never appear in Spotlight, Siri or widgets. You can also lock the whole app.</p></details>
+      <details class="reveal"><summary>What do I need to run it?</summary><p>An iPhone with iOS 27 or an iPad with iPadOS 27.</p></details>
+    </div>
+    <p class="help reveal">More help in the <a href="https://app.notion.com/p/Nook-Cranny-Support-1633f8dd0255806290d1ffc6c53922d8?source=copy_link" target="_blank" rel="noopener">Support Center</a>, or write to <a href="mailto:lightconeapps@gmail.com">lightconeapps@gmail.com</a>.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="/assets/icon-512.png" alt="" width="56" height="56" loading="lazy">
+    <p><strong>Nook &amp; Cranny</strong><br>Know what you own. Exactly where it is.</p>
+  </div>
+  <nav class="footer-links" aria-label="Legal and support">
+    <a href="https://app.notion.com/p/Nook-Cranny-Support-1633f8dd0255806290d1ffc6c53922d8?source=copy_link" target="_blank" rel="noopener">Support</a>
+    <a href="https://app.notion.com/p/Nook-Cranny-Privacy-Policy-4033f8dd0255806ea997fb2a9b8cf777?source=copy_link" target="_blank" rel="noopener">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms of Use</a>
+    <a href="mailto:lightconeapps@gmail.com">Contact</a>
+  </nav>
+  <p class="footer-fine">© 2026 Nook &amp; Cranny. This site uses no cookies or tracking. Apple, iPhone, iPad and App Store are trademarks of Apple Inc.</p>
+</footer>
+</body>
+</html>
